@@ -1,0 +1,16 @@
+@mixin lg {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+.bg-hero {
+  background: url("../../images/mobile/image-hero.jpg") center center no-repeat;
+  background-size: cover;
+
+   @include lg {
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../images/desktop/image-hero.jpg");
+  }
+}
