@@ -12,7 +12,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="px-4 py-8 fixed top-0 inset-x-0 z-20 lg:max-w-10/12 lg:mx-auto lg:py-20">
+    <header className="px-4 py-8 absolute top-0 inset-x-0 z-20 lg:max-w-10/12 lg:mx-auto lg:py-20">
       <Sheet>
         <div className="flex items-center justify-between">
           <a href="#">

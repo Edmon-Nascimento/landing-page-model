@@ -1,5 +1,6 @@
 import Header from "@/components/header/header"
 import Hero from "@/components/hero/hero"
+import Main from "@/components/main/main"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <Main />
     </>
   )
 }
