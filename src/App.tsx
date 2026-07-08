@@ -1,6 +1,7 @@
 import Header from "@/components/header/header"
 import Hero from "@/components/hero/hero"
 import Main from "@/components/main/main"
+import Footer from "@/components/footer/footer"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <Main />
+      <Footer />
     </>
   )
 }
